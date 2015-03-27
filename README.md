@@ -6,9 +6,9 @@ I use Soundcloud every day and over the time I have been using it I have accumul
 This program is made to take someone’s Soundcloud username and write their like list to a CSV file.
 
 ##Requirements
-*Python 3 interpreter
-*API key for Soundcloud, if you are logged in you can get one by clicking this link: http://soundcloud.com/you/apps/new
-*Soundcloud Python Library, this can be found here: https://github.com/soundcloud/soundcloud-python 
+* Python 3 interpreter
+* API key for Soundcloud, if you are logged in you can get one by clicking this link: http://soundcloud.com/you/apps/new
+* Soundcloud Python Library, this can be found here: https://github.com/soundcloud/soundcloud-python 
 
 ##Further Development
 I am currently working on this code, trying to make it cleaner and am hopefully going to be adding new features including a GUI. 
