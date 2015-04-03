@@ -32,10 +32,7 @@ while offset_number < number_of_user_likes:
             "{}/users/{}/favorites.json?client_id={}&offset={}&limit1".format(api_base, userID.id,
                                                                               clientID, offset_number)).read()
         track_data = json.loads(track_fetch.decode())
-        if "," in track_data[0]["title"]:
-            track_title = track_data[0]["title"].replace(",", "")  # Removes commas as causes issues with .csv files
-        else:
-            track_title = track_data[0]["title"]
+        track_title = track_data[0]["title"].replace(",", "")  # Removes commas as causes issues with .csv files
         csv_file.write("{},{}\n".format(track_title, track_data[0]["permalink_url"]))
         offset_number += 1
         print("{} of {} ({}%)".format(offset_number, number_of_user_likes,
