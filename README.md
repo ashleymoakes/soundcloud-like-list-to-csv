@@ -1,6 +1,5 @@
 Soundcloud Like List To CSV File
 
-Purpose
 This program can be used to create a CSV file with all the liked tracks of a given user.
 
 Requirements
